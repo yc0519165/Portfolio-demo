@@ -10,8 +10,10 @@ export const About = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-8xl font-main font-normal mb-3">ABOUT ME</h1>
-          <p className="text-2xl font-main1 tracking-main1">
+          <h1 className="text-8xl text-center font-main font-normal mb-3">
+            ABOUT ME
+          </h1>
+          <p className="text-2xl text-center font-main1 tracking-main1">
             IT’S A-ME, MARIO!
           </p>
         </motion.div>

@@ -13,13 +13,17 @@ export const Project = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-8xl font-main font-normal mb-3">MY PROJECTS</h1>
-          <p className="text-2xl font-main1 tracking-main1">MADE WITH LOVE</p>
+          <h1 className="text-8xl text-center font-main font-normal mb-3">
+            MY PROJECTS
+          </h1>
+          <p className="text-2xl text-center font-main1 tracking-main1">
+            MADE WITH LOVE
+          </p>
         </motion.div>
       </div>
       <div className="w-full flex items-center justify-center mt-16 mb-10 selection:bg-gray-500">
         <div className=" grid grid-cols-3 grid-rows-1 gap-12">
-          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg">
+          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg cursor-pointer">
             <img
               className=" rounded-t-md grayscale transition-[0.10s] hover:grayscale-0"
               src={assets.project_4}
@@ -34,7 +38,7 @@ export const Project = () => {
               aspernatur est molestiae
             </p>
           </div>
-          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg">
+          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg cursor-pointer">
             <img
               className=" rounded-t-md grayscale transition-[0.10s] hover:grayscale-0"
               src={assets.project_5}
@@ -49,7 +53,7 @@ export const Project = () => {
               aspernatur est molestiae
             </p>
           </div>
-          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg">
+          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg cursor-pointer">
             <img
               className=" rounded-t-md grayscale transition-[0.10s] hover:grayscale-0"
               src={assets.project_2}
@@ -64,7 +68,7 @@ export const Project = () => {
               aspernatur est molestiae
             </p>
           </div>
-          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg">
+          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg cursor-pointer">
             <img
               className="h-[189px] rounded-t-md grayscale transition-[0.10s] hover:grayscale-0"
               src={assets.project_7}
@@ -79,7 +83,7 @@ export const Project = () => {
               aspernatur est molestiae
             </p>
           </div>
-          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg">
+          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg cursor-pointer">
             <img
               className=" rounded-t-md grayscale transition-[0.10s] hover:grayscale-0"
               src={assets.project_8}
@@ -94,7 +98,7 @@ export const Project = () => {
               aspernatur est molestiae
             </p>
           </div>
-          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg">
+          <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg cursor-pointer">
             <img
               className=" rounded-t-md grayscale transition-[0.10s] hover:grayscale-0"
               src={assets.project_3}
