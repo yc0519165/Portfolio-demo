@@ -43,7 +43,7 @@ export const HomePage = () => {
         </div>
         <div className="w-full sm:w-[42%] ml-14 px-4 flex flex-col gap-3">
           <h2 className="text-3xl font-bold font-main1">My Skills</h2>
-          <div className="grid grid-cols-5 grid-rows-5 gap-8  ">
+          <div className="grid grid-cols-5 grid-rows-5 gap-8 w-full ">
             <div className="flex items-center gap-3">
               <img className="w-[20%]" src={assets.html_logo} />
               <p className="text-base font-medium font-roboto">HTML</p>

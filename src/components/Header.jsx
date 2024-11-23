@@ -18,7 +18,7 @@ const DropdownMenu = () => {
   };
 
   return (
-    <div className="flex w-full md:w-full justify-between p-6 px-8 bg-black text-[#fff] selection:bg-gray-500">
+    <div className="flex w-full justify-between p-6 px-8 bg-black text-[#fff] selection:bg-gray-500">
       <div>
         <img
           onClick={() => navigate("/")}
