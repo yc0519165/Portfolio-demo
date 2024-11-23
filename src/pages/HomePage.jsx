@@ -7,7 +7,7 @@ export const HomePage = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="h-[87vh] w-screen bg-[#000] selection:text-gray-400 flex flex-col items-center justify-center text-[#fff]">
+      <div className="h-[87vh] w-full bg-[#000] selection:text-gray-400 flex flex-col items-center justify-center text-[#fff]">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
