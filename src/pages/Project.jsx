@@ -97,7 +97,7 @@ export const Project = () => {
           <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg">
             <img
               className=" rounded-t-md grayscale transition-[0.10s] hover:grayscale-0"
-              src="/src/assets/istockphoto-1438634414-612x612.webp"
+              src={assets.project_3}
               alt=""
             />
             <h1 className="mb-4 text-2xl font-medium font-roboto">

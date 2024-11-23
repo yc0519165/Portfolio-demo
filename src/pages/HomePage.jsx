@@ -12,7 +12,7 @@ export const HomePage = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-8xl w-[50%] sm:w-full text-center font-main font-normal mb-3"
+          className="text-8xl text-center font-main font-normal mb-3"
         >
           YUVRAJ CHAVHAN
         </motion.h1>
@@ -20,16 +20,14 @@ export const HomePage = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-2xl w-[50%] sm:w-full text-center font-main1 tracking-main1"
+          className="text-2xl text-center font-main1 tracking-main1"
         >
           Frontend-Developer
         </motion.p>
       </div>
       <div className="h-auto w-full selection:bg-gray-500 flex flex-col items-center justify-center">
-        <div className="w-full sm:w-[42%] px-4 py-12 flex flex-col gap-3">
-          <h2 className="text-2xl sm:text-3xl font-bold font-main1">
-            About me
-          </h2>
+        <div className="w-[42%] px-4 py-12 flex flex-col gap-3">
+          <h2 className="text-3xl font-bold font-main1">About me</h2>
           <p className="text-sm">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -41,9 +39,9 @@ export const HomePage = () => {
             accusam et justo duo dolores et ea rebum.
           </p>
         </div>
-        <div className="w-full sm:w-[42%] ml-14 px-4 flex flex-col gap-3">
+        <div className="w-[46%] ml-14 px-4 flex flex-col gap-3">
           <h2 className="text-3xl font-bold font-main1">My Skills</h2>
-          <div className="grid grid-cols-5 grid-rows-5 gap-8 w-full ">
+          <div className="grid grid-cols-5 grid-rows-5 gap-8 ">
             <div className="flex items-center gap-3">
               <img className="w-[20%]" src={assets.html_logo} />
               <p className="text-base font-medium font-roboto">HTML</p>
