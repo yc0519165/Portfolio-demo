@@ -12,7 +12,7 @@ export const HomePage = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-8xl text-center font-main font-normal mb-3"
+          className="md:text-8xl text-7xl md:w-full text-center font-main font-normal mb-3"
         >
           YUVRAJ CHAVHAN
         </motion.h1>
@@ -20,15 +20,22 @@ export const HomePage = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-2xl text-center font-main1 tracking-main1"
+          className="md:text-2xl xl md:w-full text-center font-main1 tracking-main1"
         >
           Frontend-Developer
         </motion.p>
       </div>
       <div className="h-auto w-full selection:bg-gray-500 flex flex-col items-center justify-center">
-        <div className="w-[42%] px-4 py-12 flex flex-col gap-3">
-          <h2 className="text-3xl font-bold font-main1">About me</h2>
-          <p className="text-sm">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="w-full md:w-[42%] px-4 py-12 flex flex-col gap-3"
+        >
+          <h2 className="text-2xl font-bold font-main1 md:text-3xl">
+            About me
+          </h2>
+          <p className="text-xs md:text-sm">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
@@ -38,55 +45,55 @@ export const HomePage = () => {
             et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
             accusam et justo duo dolores et ea rebum.
           </p>
-        </div>
-        <div className="w-[46%] ml-14 px-4 flex flex-col gap-3">
+        </motion.div>
+        <div className="w-full md:w-[46%] md:ml-14 px-4 flex flex-wrap flex-col gap-3">
           <h2 className="text-3xl font-bold font-main1">My Skills</h2>
-          <div className="grid grid-cols-5 grid-rows-5 gap-8 ">
+          <div className="grid md:grid-cols-5 grid-cols-2 md:grid-rows-2  gap-8 mb-32">
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.html_logo} />
+              <img src={assets.html_logo} />
               <p className="text-base font-medium font-roboto">HTML</p>
             </div>
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.css_logo} />
+              <img src={assets.css_logo} />
               <p className="text-base font-medium font-roboto">CSS</p>
             </div>
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.javaScript_logo} />
+              <img src={assets.javaScript_logo} />
               <p className="text-base font-medium font-roboto">JavaScript</p>
             </div>
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.react_logo} />
+              <img src={assets.react_logo} />
               <p className="text-base font-medium font-roboto">React</p>
             </div>
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.node_logo} />
+              <img src={assets.node_logo} />
               <p className="text-base font-medium font-roboto">Node JS</p>
             </div>
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.figma_logo} />
+              <img src={assets.figma_logo} />
               <p className="text-base font-medium font-roboto">Figma</p>
             </div>
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.google_logo} />
+              <img src={assets.google_logo} />
               <p className="text-base font-medium font-roboto">Chrome</p>
             </div>
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.vscode_logo} />
+              <img src={assets.vscode_logo} />
               <p className="text-base font-medium font-roboto">VS Code</p>
             </div>
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.git_logo} />
+              <img src={assets.git_logo} />
               <p className="text-base font-medium font-roboto">Git</p>
             </div>
             <div className="flex items-center gap-3 transition-[0.5s] hover:-translate-y-2 cursor-pointer">
-              <img className="w-[20%]" src={assets.npm_logo} />
+              <img src={assets.npm_logo} />
               <p className="text-base font-medium font-roboto">NPM</p>
             </div>
           </div>
         </div>
       </div>
       <div className="w-full flex items-center justify-center mb-5 selection:bg-gray-500">
-        <div className=" grid grid-cols-3 grid-rows-1 gap-8">
+        <div className=" grid md:grid-cols-3 grid-cols-1 md:grid-rows-1 grid-rows-1 gap-8">
           <div className="w-80 p-3 h-96 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg cursor-pointer">
             <img
               className="rounded-t-md grayscale transition-[0.10s] hover:grayscale-0"

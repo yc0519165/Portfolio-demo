@@ -13,16 +13,16 @@ export const Project = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-8xl text-center font-main font-normal mb-3">
+          <h1 className="md:text-8xl text-7xl md:w-full text-center font-main font-normal mb-3">
             MY PROJECTS
           </h1>
-          <p className="text-2xl text-center font-main1 tracking-main1">
+          <p className="md:text-2xl text-xl md:w-full text-center font-main1 tracking-main1">
             MADE WITH LOVE
           </p>
         </motion.div>
       </div>
       <div className="w-full flex items-center justify-center mt-16 mb-10 selection:bg-gray-500">
-        <div className=" grid grid-cols-3 grid-rows-1 gap-12">
+        <div className=" grid md:grid-cols-3 grid-cols-1 grid-rows-1 gap-12 ">
           <div className="w-80 p-3 flex flex-col gap-3 border rounded-md transition-[1s] hover:-translate-y-8 hover:shadow-lg cursor-pointer">
             <img
               className=" rounded-t-md grayscale transition-[0.10s] hover:grayscale-0"

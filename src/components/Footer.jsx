@@ -5,7 +5,7 @@ export const Footer = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="w-full h-[300px] flex items-start justify-between bg-black p-36 selection:bg-gray-500">
+      <div className="w-full h-[300px] flex-col md:flex-row flex items-start justify-between bg-black md:p-36 p-9 selection:bg-gray-500">
         <div className="flex gap-7">
           <p
             onClick={() => navigate("/project")}

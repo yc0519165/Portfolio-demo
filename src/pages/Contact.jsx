@@ -8,21 +8,29 @@ export const Contact = () => {
     <>
       <div className="scroll-smooth selection:bg-gray-500">
         <div className="h-[87vh] w-full bg-[#000] flex flex-col items-center justify-center text-[#fff]">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h1 className="text-8xl text-center font-main font-normal mb-3">
+          <div>
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="md:text-8xl text-7xl md:w-full text-center font-main font-normal mb-3"
+            >
               CONTACT ME
-            </h1>
-            <p className="text-2xl text-center font-main1 tracking-main1">
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="md:text-2xl text-xl md:w-full text-center font-main1 tracking-main1"
+            >
               SAY HELLO TO ME
-            </p>
-          </motion.div>
+            </motion.p>
+          </div>
         </div>
         <div className=" px-36 py-24 flex flex-col gap-12">
-          <h2 className="text-3xl font-bold font-main1">Contact me</h2>
+          <h2 className="md:text-3xl text-2xl font-bold font-main1">
+            Contact me
+          </h2>
           <div className="w-[95%] h-auto">
             <div className="flex mt-5 justify-center items-center gap-20">
               <div className="flex flex-col gap-4 border-b-2 border-black w-[470px] ">

@@ -50,37 +50,37 @@ const DropdownMenu = () => {
             transition={{ duration: 0.8 }}
             className="absolute h-[85vh] w-full  rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none overflow-hidden translate-x-10"
           >
-            <div className="h-full w-full flex justify-center gap-96 px-10 py-14 items-center">
-              <div className="relative bottom-[106px]">
+            <div className="h-full w-full flex md:flex-row flex-col justify-center gap-80 md:gap-96 px-10 py-14 items-center">
+              <div className="relative md:right-0 right-[96px] md:top-0 top-[103px] md:bottom-[106px]">
                 <p className="text-sm  text-black -rotate-90">MENU</p>
-                <div className="absolute -top-5 left-10 flex flex-col gap-3 items-start">
+                <div className="absolute -top-14 left-10 flex flex-col gap-3 items-start">
                   <span
                     onClick={() => handelClickRemove("/")}
-                    className="text-[#000] text-5xl font-roboto font-medium cursor-pointer"
+                    className="text-[#000] md:text-5xl text-4xl font-roboto font-medium cursor-pointer"
                   >
                     HOME
                   </span>
                   <span
                     onClick={() => handelClickRemove("/project")}
-                    className="text-[#000] text-5xl font-roboto font-medium cursor-pointer"
+                    className="text-[#000] md:text-5xl text-4xl font-roboto font-medium cursor-pointer"
                   >
                     PROJECTS
                   </span>
                   <span
                     onClick={() => handelClickRemove("/about")}
-                    className="text-[#000] text-5xl font-roboto font-medium cursor-pointer"
+                    className="text-[#000] md:text-5xl text-4xl font-roboto font-medium cursor-pointer"
                   >
                     ABOUT
                   </span>
                   <span
                     onClick={() => handelClickRemove("/contact")}
-                    className="text-[#000] text-5xl font-roboto font-medium cursor-pointer"
+                    className="text-[#000] md:text-5xl text-4xl font-roboto font-medium cursor-pointer"
                   >
                     CONTACT
                   </span>
                 </div>
               </div>
-              <div className="flex flex-col items-start gap-4">
+              <div className="flex flex-col mb-9 md:m-0 items-start gap-4">
                 <span className="text-xl text-black font-roboto font-medium">
                   yc0519165@gmail.com
                 </span>

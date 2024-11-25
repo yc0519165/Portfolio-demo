@@ -16,3 +16,18 @@
 body {
   scroll-behavior: smooth;
 }
+/* @keyframes appear {
+  from {
+    opacity: 0.5;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.secod-cont {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: normal;
+} */
